@@ -1,20 +1,8 @@
-h1 {
-  color: red;
-}
-
-:host {
-  border: 5px solid red;
-  display: block;
-}
-
-.red-cube {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-
-.blue-cube {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
