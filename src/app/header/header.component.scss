@@ -1,0 +1,15 @@
+:host {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../../assets/mobile/bg-pattern-header.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 32px 24px 72px 24px;
+
+  img {
+    cursor: pointer;
+  }
+}
