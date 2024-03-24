@@ -1,4 +1,10 @@
-import { Component, Input, ViewEncapsulation } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  ViewEncapsulation,
+} from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -7,4 +13,9 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
 })
 export class ChildComponent {
   @Input() public x: string = '';
+  @Output() public dataFromChild: EventEmitter<any> = new EventEmitter();
+
+  sendData() {
+    this.dataFromChild.emit('hello from child component');
+  }
 }

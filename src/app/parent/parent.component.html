@@ -1,2 +1,4 @@
 <p>parent works! {{ parentText }}</p>
-<app-child [x]="textFromParent"> </app-child>
+<h4>{{ textFromChild }}</h4>
+<app-child (dataFromChild)="dataFromChild($event)" [x]="textFromParent">
+</app-child>
