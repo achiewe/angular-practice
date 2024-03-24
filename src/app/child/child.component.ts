@@ -1,8 +1,10 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-child',
   templateUrl: './child.component.html',
   styleUrl: './child.component.scss',
 })
-export class ChildComponent {}
+export class ChildComponent {
+  @Input() public x: string = '';
+}
