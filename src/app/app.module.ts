@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ParentComponent } from './parent/parent.component';
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
-  declarations: [AppComponent, ParentComponent],
+  declarations: [AppComponent, ItemComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

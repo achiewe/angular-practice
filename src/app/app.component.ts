@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { Item } from './item.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  public countries: string[] = ['georgia', 'usa', 'france', 'italy'];
+  items: Item[] = [
+    { descripiton: 'davurekav vigacas', done: false },
+    { descripiton: 'vedzaxis genas', done: true },
+    { descripiton: 'ar vedzaxi aravis', done: false },
+  ];
 }
