@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './parent.component.scss',
 })
 export class ParentComponent {
-  parentText = 'parent text from component.ts';
+  public parentText: string = 'parent text from component.ts';
 }
