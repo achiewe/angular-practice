@@ -1,6 +1,3 @@
-<h1>this is app.component.html</h1>
-<app-parent>
-  <b second>hello i am projected from app.component.html second</b>
-  <p>hello i am projected from app.component.html</p>
-  <h3 third>hello i am projected from app.component.html thrid</h3>
-</app-parent>
+<ng-container *ngFor="let el of data">
+  <ng-container *ngIf="el.id === '2'">{{ el.name }}</ng-container>
+</ng-container>
