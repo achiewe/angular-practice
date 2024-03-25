@@ -1,0 +1,41 @@
+:host {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px 16px 24px;
+  border-radius: 6px;
+  background-color: #ffffff;
+
+  input {
+    width: 100%;
+    border: none;
+    color: #ffff;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+    svg {
+      cursor: pointer;
+    }
+
+    button {
+      width: 48px;
+      height: 48px;
+      background-color: #5964e0;
+      border: none;
+      flex-shrink: 0;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
