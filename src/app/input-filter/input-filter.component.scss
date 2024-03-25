@@ -9,13 +9,17 @@
   input {
     width: 100%;
     border: none;
-    color: #ffff;
+    color: black;
     background-color: #ffffff;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     outline: none;
+  }
+
+  .dark-mode {
+    background-color: #19232d;
   }
 
   div {

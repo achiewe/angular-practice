@@ -7,7 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent {
   ischecked = false;
-  @Output() modeChanged = new EventEmitter<boolean>();
+  @Output() modeChanged: EventEmitter<boolean> = new EventEmitter();
 
   changeMode() {
     this.ischecked = !this.ischecked;
